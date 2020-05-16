@@ -1,0 +1,151 @@
+@import-normalize;
+
+.resume {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "aside  main";
+  padding: 65px 65px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume-headerless {
+  grid-template-areas: "aside main";
+}
+
+header {
+  border-bottom: 2px solid rgb(213, 213, 213);
+  padding: 0 0 14px 0;
+  grid-area: header;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(72, 72, 72);
+}
+
+main {
+  grid-area: main;
+  padding: 0 0 0 34px;
+}
+
+aside {
+  grid-area: aside;
+  border-right: 2px solid rgb(213, 213, 213);
+  padding: 0 34px 0 0;
+  width: 188px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  h4 {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 24px 0 10px 0;
+  }
+
+  p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(72, 72, 72);
+    margin: 0;
+  }
+
+  .progress-list {
+    h4 {
+      text-transform: unset;
+      margin: 8px 0 0 0;
+    }
+
+    progress {
+      appearance: none;
+
+      width: 100%;
+      height: 6px;
+    }
+
+    progress::-webkit-progress-bar {
+      background-color: rgb(216, 216, 216);
+    }
+
+    progress::-webkit-progress-value {
+      background-color: black;
+    }
+  }
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position: relative;
+  padding: 12px 2px;
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 4px;
+    background-color: black;
+  }
+}
+
+article {
+  border-bottom: 2px solid rgb(213, 213, 213);
+
+  &.no-border {
+    border-bottom: none;
+  }
+
+  .place {
+    float: right;
+  }
+
+  p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(89, 89, 89);
+  }
+
+  .place {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    width: 60%;
+    margin-bottom: 0;
+  }
+
+  .date {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0.5em;
+  }
+}
