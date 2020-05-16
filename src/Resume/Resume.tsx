@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.scss";
+import "./Resume.scss";
 
-const App: React.FC = () => {
+const Resume: React.FC = () => {
   return (
     <>
       <div className="resume sheet">
@@ -211,4 +211,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default Resume;
