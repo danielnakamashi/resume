@@ -199,8 +199,8 @@ const Resume: React.FC = () => {
             </li>
             <li>
               <h4>English</h4>
-              <progress value="6" max="10">
-                6
+              <progress value="8" max="10">
+                8
               </progress>
             </li>
             <li>
