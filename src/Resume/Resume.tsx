@@ -38,7 +38,12 @@ const Resume: React.FC = () => {
               <p className="date">Oct 2019 - Present</p>
               <div>
                 <p>
-                  Responsible for some components in admin and main website
+                  Responsible mainly for a feature that allow users to evaluate
+                  their cars through multi step form. The stack is composed by
+                  React, Apollo, CSS Modules, React Hooks Form.
+                </p>
+                <p>
+                  Also responsible for some components in admin and main website
                   related to auctions. The stack is composed by React, Effector
                   (state manager), Flow/Typescript, REST API, Emotion and micro
                   frontend aproach.
@@ -109,26 +114,26 @@ const Resume: React.FC = () => {
             </li>
             <li>
               <h4>Typescript</h4>
-              <progress value="8" max="10">
-                8
+              <progress value="9" max="10">
+                9
               </progress>
             </li>
             <li>
               <h4>Redux</h4>
-              <progress value="10" max="10">
-                10
+              <progress value="9" max="10">
+                9
               </progress>
             </li>
             <li>
               <h4>GraphQL</h4>
-              <progress value="5" max="10">
-                5
+              <progress value="8" max="10">
+                8
               </progress>
             </li>
             <li>
               <h4>TDD</h4>
-              <progress value="8" max="10">
-                8
+              <progress value="9" max="10">
+                9
               </progress>
             </li>
           </ul>
