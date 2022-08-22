@@ -38,23 +38,23 @@ const Resume: React.FC = () => {
               <p className="date">Oct 2019 - Present</p>
               <div>
                 <p>
-                  Responsible mainly for a feature that allow users to evaluate
-                  their cars through multi step form. The stack is composed by
+                  Responsible mainly for a feature that allows users to evaluate
+                  their cars through a multi-step form. The stack is composed of
                   React, Apollo, CSS Modules, React Hooks Form.
                 </p>
                 <p>
                   Also responsible for some components in admin and main website
-                  related to auctions. The stack is composed by React, Effector
-                  (state manager), Flow/Typescript, REST API, Emotion and micro
-                  frontend aproach.
+                  related to auctions. The stack is composed of React, Effector
+                  (state manager), Flow/Typescript, REST API, and Emotion. We
+                  also use a micro-frontend approach.
                 </p>
                 <p>
-                  The most challenging part of this job is to understand all the
-                  business rules involved in it. Other challenge is to
-                  communicate with others frontend engineers, which are in
-                  others teams but share the same codebase, in order to adopt
-                  good solutions for all, since each one have slight different
-                  necessities and problems to solve.
+                  The most challenging part of this job is understanding all the
+                  business rules involved in it. Another challenge is to
+                  communicate with other frontend engineers, which are in other
+                  teams but share the same codebase, to adopt good solutions for
+                  all since each one has slightly different necessities and
+                  problems to solve.
                 </p>
               </div>
             </article>
@@ -64,7 +64,7 @@ const Resume: React.FC = () => {
               <p className="date">Jul 2013 – Sep 2019</p>
               <div>
                 <p>
-                  The last project I worked there I used Node.js to do the
+                  In the last project I worked there I used Node.js to do the
                   migration of data from an external platform to our
                   infrastructure. I build the project as a monorepo
                   infrastructure with lerna.js and TypeScript using TDD
@@ -74,9 +74,7 @@ const Resume: React.FC = () => {
                   In a previous project, I build the structure of an SSR React
                   application and worked at the front-end building components
                   and orchestrating to make all the technologies work in harmony
-                  together. Technologies used: React, Webpack, Hot Module
-                  Replacement, Styled Components, Material UI, Apollo, GraphQL,
-                  Code Splitting, and Babel .
+                  together.
                 </p>
               </div>
             </article>
@@ -145,6 +143,11 @@ const Resume: React.FC = () => {
             <article>
               <div>
                 <p>
+                  Technologies used: React, Webpack, Hot Module Replacement,
+                  Styled Components, Material UI, Apollo, GraphQL, Code
+                  Splitting, and Babel.
+                </p>
+                <p>
                   I also made an iOS application in Swift for a ticket seller
                   company which gave me some experience with mobile development.
                 </p>
@@ -161,7 +164,7 @@ const Resume: React.FC = () => {
               <div>
                 <p>
                   Build several websites of famous brands like Microsoft,
-                  Nestlé, TAM and others, since the HTML until the Database. The
+                  Nestlé, TAM and others, since the HTML to the Database. The
                   stack usually was composed by HTML, JavaScript, CSS, jQuery,
                   ASP.NET MVC, PHP, MySQL and SQLServer.
                 </p>
@@ -173,9 +176,9 @@ const Resume: React.FC = () => {
               <p className="date">Oct 2007 – Sep 2010</p>
               <div>
                 <p>
-                  Worked in high traffic websites like CyberCook and VilaMulher
-                  building new features and maintaining the existing ones. The
-                  back- end was composed by PHP and MySQL.
+                  I worked on high-traffic websites like CyberCook and
+                  VilaMulher building new features and maintaining the existing
+                  ones. The back-end was composed of PHP and MySQL.
                 </p>
               </div>
             </article>
